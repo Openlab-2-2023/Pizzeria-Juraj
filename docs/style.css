@@ -199,3 +199,8 @@ margin-bottom: 2.3 rem;
     transform: scale(1.02);
 
 }
+.Koniec{
+    font-size: var(--p-font);
+    color: var(--second-color);
+    text-align: center;
+}
