@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Výber pizze</title>
+    <title>Objednávka</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
-    dasdasd
+    <div class="contact-box">
+        
+        <form>
+            <img class="logo" src="6BJ3q0-LogoMakr.png" alt="Logo">
+            <input type="text" class="input-field" placeholder="Meno">
+            <input type="text" class="input-field" placeholder="Priezvisko">
+            <input type="text" class="input-field" placeholder="Tel.číslo">
+            <input type="text" class="input-field" placeholder="Email (nepovinné)">
+            
+            <select class="input-field"  id="Výber" name="Výber">
+                <option value="">Margherita</option>
+                <option value="">Diavola</option>
+                <option value="">Prosciutto</option>
+                <option value="">Quatro Formaggi</option>
+            </select>
+            <input class="input-field" type="number" id="quantity" placeholder="Množstvo" name="quantity" min="0" max="20">
+            <input type="text" class="input-field" placeholder="Poznámka (nepovinné)">
+            
+            <a href="http://127.0.0.1:5501/docs/done/index.html" class="btn">Objednat</a>
+
+        </form>
+
+    </div>
 </body>
 </html>
