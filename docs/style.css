@@ -209,3 +209,100 @@ margin-bottom: 2.3 rem;
     color: var(--text-color);
     text-align: center;
 }
+.contact-box{
+    width: 500px;
+    background-color: var(--bg-color);
+    box-shadow: 0 0 20px 0 #999;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    font-size: var(--p-font);
+    
+    
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid var(--main-color);
+    border-radius: 14px;
+    outline: none;
+}
+.btn2{
+    display: inline-block;
+    padding: 7px 13px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5rem;
+    transition: all.40s ease;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn2:hover{
+    letter-spacing: 1px;
+}
+.logo2{
+    height: 125px;
+    margin-left: 160px;
+    
+}
+.btn3{  display: inline-block;
+    padding: 7px 13px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5rem;
+    transition: all.40s ease;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 255px;
+
+
+}
+.btn3:hover{
+    letter-spacing: 1px;
+}
+.fajka{
+    height: 100px;
+    margin-left: 160px;
+}
+.logo3{
+    height: 125px;
+    margin-left: 200px;
+    
+}
+.text{
+    color: var(--text-color);
+    font-size:xx-large;
+    text-align: center;
+}
+.text2{
+    color: var(--main-color);
+    font-size: var(--h2-font);
+    text-align: center;
+    
+}
+.btn4{
+    display: inline-block;
+    padding: 7px 13px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5rem;
+    transition: all.40s ease;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn4:hover{
+    letter-spacing: 1px;
+}
