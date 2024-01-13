@@ -218,7 +218,7 @@ margin-bottom: 2.3 rem;
     transform:translate(-50%,-50%);
     position: absolute;
     font-size: var(--p-font);
-    
+    z-index: 5;
     
 }
 form{
