@@ -358,7 +358,7 @@ form{
     letter-spacing: 1px;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+
 *{
  margin:0;
  padding: 0;
@@ -375,7 +375,7 @@ form{
 background: -moz-linear-gradient(90deg, rgb(235, 159, 73) 0%, rgb(211, 102, 30) 100%);
 background: -webkit-linear-gradient(90deg, rgba(235, 159, 73) 0%, rgba(211, 102, 30) 100%);
 background: linear-gradient(90deg, rgba(235, 159, 73) 0%, rgba(211, 102, 30) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e94ca1",endColorstr="#c74ae9",GradientType=1);
+
 opacity: .7;
 }
 table{
@@ -401,15 +401,14 @@ td , th{
 th{
  background-color: #ec700b;
  color: #fafafa;
- font-family: 'Open Sans',Sans-serif;
- font-weight: 200;
- text-transform: uppercase;
+ font-family: var(--big-font)
+
 
 }
 tr{
  width: 100%;
  background-color: #fafafa;
- font-family: 'Montserrat', sans-serif;
+ font-family: var(--p-font)
 }
 tr:nth-child(even){
  background-color: #eeeeee;
