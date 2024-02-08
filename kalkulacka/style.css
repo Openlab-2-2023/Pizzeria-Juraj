@@ -1,0 +1,30 @@
+ 
+		table { 
+			border: 1px solid black; 
+			
+		} 
+		
+		input[type="button"] { 
+			width: 100%; 
+			padding: 20px 40px; 
+			background-color: gray; 
+			color: white; 
+			font-size: 24px; 
+			font-weight: bold; 
+			border: none; 
+			border-radius: 5px;
+            cursor: pointer; 
+		} 
+		
+		input[type="text"] { 
+			padding: 20px 30px; 
+			font-size: 24px; 
+			font-weight: bold; 
+            width: 108%;
+			 
+			 
+			
+		} 
+        
+     
+        
