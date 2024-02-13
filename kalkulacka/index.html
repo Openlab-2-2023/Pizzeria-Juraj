@@ -4,7 +4,7 @@
 <head> 
 	<title>Kalkulačka</title> 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     
 	
 	
@@ -15,12 +15,12 @@
 	<table id="calcu"> 
 		<tr> 
 			<td colspan="3"> 
-				<input type="text" id="result">
+				<input type="text" class="previous-operand" disabled>
                  
 			</td> 
             <tr>
                 <td colspan="3">
-                    <input type="text">
+                    <input type="text" class="current-operand" disabled>
                 </td>
             </tr>
 			<td><input id="clear" style="background-color: orange;" type="button" value="c"></td>
@@ -32,25 +32,25 @@
 			<td><input class="number" type="button" value="1"></td> 
 			<td><input class="number" type="button" value="2"></td> 
 			<td><input class="number" type="button" value="3"></td> 
-			<td><input class="operation" type="button" value="/"></td> 
+			<td><input style="background-color:rgb(113, 202, 113) ;" class="operation" type="button" value="/"></td> 
 		</tr> 
 		<tr> 
 			<td><input class="number" type="button" value="4"></td> 
 			<td><input class="number" type="button" value="5"></td> 
 			<td><input class="number" type="button" value="6"></td> 
-			<td><input class="operation" type="button" value="*"></td> 
+			<td><input style="background-color:rgb(113, 202, 113) ;" class="operation" type="button" value="*"></td> 
 		</tr> 
 		<tr> 
 			<td><input class="number" type="button" value="7"></td> 
 			<td><input class="number" type="button" value="8"></td> 
 			<td><input class="number" type="button" value="9"></td> 
-			<td><input class="operation" type="button" value="-"></td> 
+			<td><input style="background-color:rgb(113, 202, 113) ;" class="operation" type="button" value="-"></td> 
 		</tr> 
 		<tr> 
 			<td><input class="number" type="button" value="0"></td> 
-			<td><input class="number" type="button" value="."></td> 
+			<td><input style="background-color: rgb(197, 95, 197);" class="number" type="button" value="."></td> 
 			<td><input id="equals" style="background-color:rgb(79, 79, 206) ;" type="button" value="="></td> 
-			<td><input class="operation" type="button" value="+"></td> 
+			<td><input style="background-color:rgb(113, 202, 113) ;"	 class="operation" type="button" value="+"></td> 
 		</tr>
       
 	</table> 
