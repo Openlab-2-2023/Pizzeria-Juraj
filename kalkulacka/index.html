@@ -1,60 +1,41 @@
-<!DOCTYPE html> 
-<html> 
-
-<head> 
-	<title>Kalkulačka</title> 
-    <link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" />
     <script src="script.js" defer></script>
-    
-	
-	
-</head> 
+  </head>
 
-<body> 
+  <body>
+    <div class="calculator-grid">
+      <div class="output">
+        <div class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+      </div>
+      <button style="background-color:rgb(219, 163, 58) ;" id="data-all-clear" class="span-two">AC</button>
+      <button style="background-color: rgb(226, 59, 59);" id="data-delete">DEL</button>
+      <button style="background-color:rgb(102, 102, 219) ;" class="data-operation">÷</button>
+      <button class="data-number">7</button>
+      <button class="data-number">8</button>
+      <button class="data-number">9</button>
+      <button style="background-color:rgb(102, 102, 219) ;" class="data-operation">x</button>
+      <button class="data-number">4</button>
+      <button class="data-number">5</button>
+      <button class="data-number">6</button>
+      <button style="background-color:rgb(102, 102, 219) ;" class="data-operation">+</button>
+      <button class="data-number">1</button>
+      <button class="data-number">2</button>
+      <button class="data-number">3</button>
+      <button style="background-color:rgb(102, 102, 219) ;" class="data-operation">-</button>
+      <button class="data-number">.</button>
+      <button class="data-number">0</button>
+      <button class="data-operation">^</button>
+      <button class="data-operation">%</button>
+      <button style="background-color:rgb(137, 243, 96) ;" id="data-equals" class="span-two">=</button>
 
-	<table id="calcu"> 
-		<tr> 
-			<td colspan="3"> 
-				<input type="text" class="previous-operand" disabled>
-                 
-			</td> 
-            <tr>
-                <td colspan="3">
-                    <input type="text" class="current-operand" disabled>
-                </td>
-            </tr>
-			<td><input id="clear" style="background-color: orange;" type="button" value="c"></td>
-            <td><input id="delete" style="background-color: red;"  type="button" value="DEL"></td>
-             
-		</tr> 
-
-		<tr> 
-			<td><input class="number" type="button" value="1"></td> 
-			<td><input class="number" type="button" value="2"></td> 
-			<td><input class="number" type="button" value="3"></td> 
-			<td><input style="background-color:rgb(113, 202, 113) ;" class="operation" type="button" value="/"></td> 
-		</tr> 
-		<tr> 
-			<td><input class="number" type="button" value="4"></td> 
-			<td><input class="number" type="button" value="5"></td> 
-			<td><input class="number" type="button" value="6"></td> 
-			<td><input style="background-color:rgb(113, 202, 113) ;" class="operation" type="button" value="*"></td> 
-		</tr> 
-		<tr> 
-			<td><input class="number" type="button" value="7"></td> 
-			<td><input class="number" type="button" value="8"></td> 
-			<td><input class="number" type="button" value="9"></td> 
-			<td><input style="background-color:rgb(113, 202, 113) ;" class="operation" type="button" value="-"></td> 
-		</tr> 
-		<tr> 
-			<td><input class="number" type="button" value="0"></td> 
-			<td><input style="background-color: rgb(197, 95, 197);" class="number" type="button" value="."></td> 
-			<td><input id="equals" style="background-color:rgb(79, 79, 206) ;" type="button" value="="></td> 
-			<td><input style="background-color:rgb(113, 202, 113) ;"	 class="operation" type="button" value="+"></td> 
-		</tr>
-      
-	</table> 
-</body> 
-
-</html> 
+    </div>
+  </body>
+</html>
 
