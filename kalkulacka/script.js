@@ -62,7 +62,7 @@ class Calculator {
     this.currentOperand = computation
     this.operation = undefined
     this.previousOperand = ''
-    this.history.push({ expression: `${this.previousOperand} ${this.operation} ${this.currentOperand}`, result: computation })
+    
     
   }
 
@@ -102,7 +102,6 @@ const operationButtons = document.getElementsByClassName('data-operation')
 const equalsButton = document.getElementById('data-equals')
 const deleteButton = document.getElementById('data-delete')
 const allClearButton = document.getElementById('data-all-clear')
-const historyButton = document.getElementById('data-history')
 const previousOperandTextElement = document.getElementsByClassName("previous-operand")[0]
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
 
